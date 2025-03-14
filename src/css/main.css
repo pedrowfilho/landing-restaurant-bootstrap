@@ -71,6 +71,14 @@ body {
     background-color: #F3F4F4;
 }
 
+.container.contact {
+    background-image: url("../images/contact-group.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F3F4F4;
+}
+
 .title-section {
     font-family: "Gentium Plus", serif;
     font-size: 70px;
@@ -108,7 +116,17 @@ body {
     color: #EA6D27;
 }
 
-.nav-menu .nav-link.active {
+.nav-menu .nav-link.active,
+.container.contact button {
     background-color: #EA6D27;
     color: #FFF;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
 }

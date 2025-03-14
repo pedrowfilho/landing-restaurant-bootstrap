@@ -45,13 +45,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">
+                        <a href="#book-menu" class="nav-link">
                             <!-- <i class="bi bi-card-text"></i> -->
-                            Gallery
+                            Menu
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">
+                        <a href="#contact" class="nav-link">
                             <!-- <i class="bi bi-envelope"></i> -->
                             Contact
                         </a>
@@ -63,6 +63,7 @@
     </header>
     
     <div data-bs-spy="scroll" data-bs-target="menu-navigation">
+
         <section class="container p-5 vh-100 d-flex justify-content-center align-items-center hero" id="hero">
             <div class="row">
                 <div class="col-md-6 d-md-flex flex-column justify-content-center">
@@ -81,7 +82,7 @@
             </div>
         </section>
 
-        <section id="about" class="container p-5 vh-auto about">
+        <section id="about" class="container p-5 vh-auto d-flex flex-column align-items-center justify-content-center about">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5">
                     <img src="./src/images/img-about.png" class="d-block w-75" alt="foto do chef">
@@ -137,7 +138,7 @@
             </div>
         </section>
         
-        <section id="eventos" class="container p-5 events">
+        <section id="eventos" class="container p-5 vh-100 d-flex flex-column align-items-center justify-content-center events">
             <div class="row">
                 <h2 class="title text-center">Para todas <span>as ocasiões</span></h2>
             </div>
@@ -175,7 +176,7 @@
             </div>
         </section>
 
-        <section id="menu" class="container p-5 menu">
+        <section id="book-menu" class="container p-5 vh-100 d-flex flex-column align-items-center justify-content-center book-menu">
             <div class="row">
                 <h2 class="title text-center mb-5">Nosso <span class="text-colored">cardápio</span></h2>
             </div>
@@ -323,6 +324,57 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container p-5 vh-auto contact">
+            <div class="row">
+                <h2 class="title text-center mb-5">Fale conosco</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <form>
+                        <div class="mb-3 fw-bold">
+                            <label for="nome" class="form-label">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3 fw-bold">
+                            <label for="nome" class="form-label">Seu email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3 fw-bold">
+                            <label for="nome" class="form-label">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3 fw-bold">
+                            <label for="nome" class="form-label">Sua mensagem</label>
+                            <textarea class="form-control" name="mensagem" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row mb-4">
+                        <h3 class="title fs-4">Redes sociais</h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#"><i class="bi bi-facebook text-colored"></i></a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#"><i class="bi bi-instagram text-colored"></i></a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#"><i class="bi bi-whatsapp text-colored"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <h3 class="title fs-4">Endereço</h3>
+                        <p class="text-colored">
+                            Rua Lorem ipsum dolor, 100 - Fortaleza-Ce
+                        </p>
                     </div>
                 </div>
             </div>
