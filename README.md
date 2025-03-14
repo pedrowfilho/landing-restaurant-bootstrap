@@ -3,7 +3,7 @@
 
 <!-- ### Links -->
 <!-- - [Solution]() -->
-[View Website](https://pedrowfilho.github.io/fetch-github-finder/) 🖱️
+[View Website](https://pedrowfilho.github.io/landing-restaurant-bootstrap/) 🖱️
 
 ## Visão Geral
 
