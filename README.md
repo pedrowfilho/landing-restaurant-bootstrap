@@ -16,7 +16,6 @@ Desenvolvimento de uma landing page com Bootstrap. O tema utilizado foi de um re
 - HTML
 - CSS
 - Bootstrap
-- Responsividade
 - Git
 
 ## Autor
